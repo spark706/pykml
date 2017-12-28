@@ -5,7 +5,7 @@ from a file or remote URL.
 '''
 import sys
 import os
-import urllib2
+import urllib3
 from lxml import etree, objectify
 
 OGCKML_SCHEMA = 'http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd'
